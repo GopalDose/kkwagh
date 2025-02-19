@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import About from './components/About/About';
 import Services from './components/Services/Services';
 import loaderGif from './assets/images/loader.gif'; // Adjust the path accordingly
 import Footer from './components/Footer/Footer';
@@ -28,6 +29,7 @@ const App = () => {
         <>
           <Hero />
           <Services />
+          <About/>
           <Footer/>
         </>
       )}
