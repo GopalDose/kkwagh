@@ -7,3 +7,149 @@
   font-family: "Nunito", serif;
 }
 
+
+.Hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.bgVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(215, 245, 236, 0.786);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20%;
+  gap: 2rem;
+}
+
+.block{
+  background: #F0FDF4;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #15803D;
+  font-weight: 800;
+}
+
+.content img{
+  width: 70px;
+  background: #F0FDF4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1 {
+  font-family: 'Outfit';
+  font-size: 4rem;
+  font-weight: bolder;
+  background: radial-gradient(circle, #16A149 30%, #157238 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.1;
+}
+
+
+
+
+.title p{
+  color: #4B5563;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dark-btn{
+  background: #16A149;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.service-content{
+  width: 100%;
+  /* background: rgba(215, 245, 236, 0.786); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10% ;
+  background-color: #f4fdf7;
+
+  gap: 2rem;
+}
+
+.service-content .title h2{
+  font-family: 'Outfit';
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #000;
+  line-height: 1.1;
+}
+
+.service-content .title p{
+  color: #4B5563;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.service{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+
+.service div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: none;
+  padding: 30px;
+  gap: 10px;
+
+}
+
+.service div h2{
+  font-size: 1.5rem;
+  color: #4B5563;
+  font-weight: bolder;
+}
+.service div p{
+  color: #4B5563;
+  font-size: 14px;
+  font-weight: 500;
+}
