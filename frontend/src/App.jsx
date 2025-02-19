@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import loaderGif from './assets/images/loader.gif'; // Adjust the path accordingly
 import Footer from './components/Footer/Footer';
+import About from './components/About/About';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -29,7 +30,6 @@ const App = () => {
         <>
           <Hero />
           <Services />
-          <About/>
           <Footer/>
         </>
       )}
