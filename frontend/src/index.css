@@ -15,4 +15,30 @@
   text-transform: uppercase;
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  transition: all ease.3s;
+}
+
+.dark-btn:hover{
+  padding: 15px 40px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff; /* Change color if needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.loader-gif {
+  width: 80px; /* Adjust size */
+  height: auto;
 }

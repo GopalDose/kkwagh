@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 import bgVideo from '../../assets/bgHero.mp4';
 import logo from '../../assets/images/logo.png';
+import { FaAngleRight } from "react-icons/fa6";
 
 const Hero = () => {
     return (
@@ -21,7 +22,7 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="buttons">
-                    <a href="" className='dark-btn'>Get Started</a>
+                    <a href="" className='dark-btn'>Get Started <FaAngleRight /></a>
                 </div>
             </div>
         </div>
