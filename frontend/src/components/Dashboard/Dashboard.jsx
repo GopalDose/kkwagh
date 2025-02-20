@@ -20,14 +20,14 @@ const Dashboard = () => {
                     </div>
                     <div className="title">Agricultural Dashboard</div>
                     <div className="services-container">
-                        <a href='#' >
+                        <Link to="/crop-recc" href='#' >
                             <div className="services-card">
                                 <PiPlant className='icon' />
                                 <div className="service__title">Crop Prediction
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
-                        </a>
+                        </Link>
                         <a href='#' >
                             <div className="services-card">
                                 <GiReceiveMoney className='icon' />

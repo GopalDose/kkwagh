@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./CropRecommendation.css";
+import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 
 function CropRecommendation() {
   const indianStates = [
@@ -37,15 +39,12 @@ function CropRecommendation() {
 
   return (
     <>
+      <Navbar />
       <div className="content">
-        {/* <div className="title">
-          <h2>Smart Crop Recommendation</h2>
-        </div> */}
-
         <div className="crop-form">
-            <h2 className="form-title">
-                Smart Agri Crop Recommendation
-            </h2>
+          <h2 className="form-title">
+            Smart Agri Crop Recommendation
+          </h2>
           <input
             type="number"
             name=""
@@ -62,7 +61,7 @@ function CropRecommendation() {
             id=""
             required
           />
-
+          <input type="number" name="" id="" placeholder="Sodium" required />
           <select
             name=""
             id=""
@@ -80,7 +79,7 @@ function CropRecommendation() {
               </option>
             ))}
           </select>
-          <input type="number" name="" id="" placeholder="Sodium" required />
+          
           <input
             type="number"
             min={0}
@@ -118,6 +117,7 @@ function CropRecommendation() {
           </button>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
