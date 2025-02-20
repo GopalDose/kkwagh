@@ -7,7 +7,6 @@ import loaderGif from './assets/images/loader.gif'; // Adjust the path according
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Registration from './components/Registration/Registration';
-import Login from './components/Login/Login';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -29,11 +28,11 @@ const App = () => {
         </div>
       ) : (
         <>
-          <Hero />
+          {/* <Hero />
           <Services />
           <About/>
-          <Footer/>
-          {/* <Login/> */}
+          <Footer/> */}
+          <Registration/>
         </>
       )}
     </>

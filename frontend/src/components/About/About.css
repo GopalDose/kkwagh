@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../../assets/images/farm.jpeg");
+  /* background: url("../../assets/images/farm.jpeg"); */
+  background: #c6ffdb;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

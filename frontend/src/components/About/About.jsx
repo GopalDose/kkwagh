@@ -18,9 +18,6 @@ With a deep understanding of modern farming challenges, we provide innovative so
 Join us in transforming the agricultural landscape with Krishi Yantra – where innovation meets farming! 🌾🚜
                             </p>
                         </div>
-                        <div className="buttons">
-                            <a href="" className='dark-btn'>Get Started</a>
-                        </div>
                     </div>
                 </div>
         </>
