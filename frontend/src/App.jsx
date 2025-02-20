@@ -7,6 +7,8 @@ import loaderGif from './assets/images/loader.gif'; // Adjust the path according
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Registration from './components/Registration/Registration';
+import LeaseMarket from './components/LeaseMarket/LeaseMarket';
+import Dashboard from './components/Dashboard/Dashboard';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -32,7 +34,9 @@ const App = () => {
           <Services />
           <About/>
           <Footer/> */}
-          <Registration/>
+          {/* <LeaseMarket/> */}
+          <Dashboard/>
+          {/* <Registration/> */}
         </>
       )}
     </>
