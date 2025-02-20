@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import loaderGif from './assets/images/loader.gif';
 import Home from './pages/Home';
 import CropRecommendation from './components/CropRecommendation/CropRecommendation';
+import CropRecommendationOutput from './components/CropRecommendationOutput/CropRecommendationOutput';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -33,6 +34,7 @@ const App = () => {
             <Route path="/lease-market" element={<LeaseMarket />} />
             <Route path="/register" element={<Registration />} />
             <Route path="/crop-recc" element={<CropRecommendation />} />
+            <Route path="/crop-recc-out" element={<CropRecommendationOutput />} />
           </Routes>
         </>
       )}

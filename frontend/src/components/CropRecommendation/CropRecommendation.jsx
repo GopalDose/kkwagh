@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import "./CropRecommendation.css";
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
@@ -36,7 +37,12 @@ function CropRecommendation() {
   ];
 
   const [selectedState, setSelectedState] = useState("");
-
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form Submitted');
+    navigate('/crop-recc-out');
+  }
   return (
     <>
       <Navbar />
@@ -112,7 +118,7 @@ function CropRecommendation() {
             id=""
             required
           />
-          <button type="submit" className="submitbtn">
+          <button onClick={handleSubmit} type="submit" className="submitbtn">
             <span>Submit</span>
           </button>
         </div>
