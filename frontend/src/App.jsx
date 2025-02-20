@@ -9,6 +9,7 @@ import About from './components/About/About';
 import Registration from './components/Registration/Registration';
 import LeaseMarket from './components/LeaseMarket/LeaseMarket';
 import Dashboard from './components/Dashboard/Dashboard';
+import CropRecommendation from './components/CropRecommendation/CropRecommendation';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -33,10 +34,11 @@ const App = () => {
           {/* <Hero />
           <Services />
           <About/>
-          <Footer/> */}
+          <Footer/>  */}
           {/* <LeaseMarket/> */}
-          <Dashboard/>
+          {/* <Dashboard/> */}
           {/* <Registration/> */}
+          <CropRecommendation/>
         </>
       )}
     </>
