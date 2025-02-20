@@ -3,6 +3,7 @@ import './Hero.css';
 import bgVideo from '../../assets/bgHero.mp4';
 import logo from '../../assets/images/logo.png';
 import { FaAngleRight } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -22,7 +23,7 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="buttons">
-                    <a href="" className='dark-btn'>Get Started <FaAngleRight /></a>
+                    <Link to="/register" className='dark-btn'>Get Started <FaAngleRight /></Link>
                 </div>
             </div>
         </div>

@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import './Registration.css';
+import { useNavigate } from 'react-router-dom';
 
 function Registration() {
   const [isLogin, setIsLogin] = useState(false);
-
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form Submitted');
+    navigate('/dashboard');
+  }
   return (
     <>
       <div className="content">
@@ -46,7 +52,7 @@ function Registration() {
             </svg>
             <input type="password" className="input" placeholder="Enter your Password" />
           </div>
-          <button className="button-submit">{isLogin ? 'Login' : 'Sign Up'}</button>
+          <button onClick={handleSubmit} className="button-submit">{isLogin ? 'Login' : 'Sign Up'}</button>
           <p className="p">{isLogin ? "Don't have an account? " : "Already have an account? "}<span className="span" onClick={() => setIsLogin(!isLogin)}>{isLogin ? 'Register' : 'Login'}</span></p>
         </form>
       </div>

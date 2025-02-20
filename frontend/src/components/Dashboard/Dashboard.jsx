@@ -7,6 +7,7 @@ import { PiPlant } from "react-icons/pi";
 import { GiReceiveMoney } from "react-icons/gi";
 import { GiPlantWatering } from "react-icons/gi";
 import { MdOutlineGroups } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
     return (
@@ -43,14 +44,14 @@ const Dashboard = () => {
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
                         </a>
-                        <a href='#' >
+                        <Link to="/lease-market" href='#' >
                             <div className="services-card">
                                 <MdOutlineGroups  className='icon' />
                                 <div className="service__title">Lease Market
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
-                        </a>
+                        </Link>
                         <a href='#' >
                             <div className="services-card">
                                 <PiPlant className='icon' />
