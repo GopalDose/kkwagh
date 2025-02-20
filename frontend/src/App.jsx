@@ -8,6 +8,7 @@ import loaderGif from './assets/images/loader.gif';
 import Home from './pages/Home';
 import CropRecommendation from './components/CropRecommendation/CropRecommendation';
 import CropRecommendationOutput from './components/CropRecommendationOutput/CropRecommendationOutput';
+import FuturePrice from './components/FuturePrice/FuturePrice';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/register" element={<Registration />} />
             <Route path="/crop-recc" element={<CropRecommendation />} />
             <Route path="/crop-recc-out" element={<CropRecommendationOutput />} />
+            <Route path="/price" element={<FuturePrice />} />
           </Routes>
         </>
       )}

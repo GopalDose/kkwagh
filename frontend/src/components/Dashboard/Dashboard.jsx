@@ -28,7 +28,7 @@ const Dashboard = () => {
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
                         </Link>
-                        <a href='#' >
+                        <a href=''>
                             <div className="services-card">
                                 <GiReceiveMoney className='icon' />
                                 <div className="service__title">Prices
