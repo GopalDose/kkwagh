@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap');
 
-:root{
+:root {
   --first: #4CAF50;
   --second: #157238;
   --third: #E8F3E9;
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 }
 
-.dark-btn{
+.dark-btn {
   background: var(--first);
   padding: 15px 20px;
   border-radius: 5px;
@@ -29,7 +29,7 @@
   transition: all ease.3s;
 }
 
-.dark-btn:hover{
+.dark-btn:hover {
   padding: 15px 40px;
 }
 
@@ -39,7 +39,8 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: #fff; /* Change color if needed */
+  background-color: #fff;
+  /* Change color if needed */
   position: fixed;
   top: 0;
   left: 0;
@@ -47,8 +48,22 @@
 }
 
 .loader-gif {
-  width: 80px; /* Adjust size */
+  width: 80px;
+  /* Adjust size */
   height: auto;
 }
 
-
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: var(--second);
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}

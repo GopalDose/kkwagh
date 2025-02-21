@@ -9,7 +9,7 @@ const Navbar = () => {
     <header>
       <div className="logo">
         <img src={logo} alt="" />
-        KrushiYantra
+        KrishiYantra
       </div>
       <nav className="links">
         <ul>

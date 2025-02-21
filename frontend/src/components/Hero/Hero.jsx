@@ -15,7 +15,7 @@ const Hero = () => {
 
             <div className="content">
                 <img src={logo} alt="" />
-                <div className="block">Welcome to Krishi Yantra</div>
+                <div className="block">Welcome to KrishiYantra</div>
                 <div className="title">
                     <h1>Transform Your Farm with Smart Technology</h1>
                     <p className="desc">

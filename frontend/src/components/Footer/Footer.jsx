@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="col">
                 <div className="name">
                     <img src={logo} alt="" />
-                    krushiYantra</div>
+                    KrishiYantra</div>
                 <p className="desc">
                 </p>
                 <div className="links">

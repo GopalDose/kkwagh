@@ -9,7 +9,7 @@ function About() {
         
                     <div className="about-content">
                         <div className="title">
-                            <h1>Why Krishi Yantra ?</h1>
+                            <h1>Why KrishiYantra ?</h1>
                             <p className="desc">
                             At Krishi Yantra, we are dedicated to revolutionizing agriculture through smart and sustainable technology. Our mission is to empower farmers with cutting-edge tools that enhance efficiency, maximize crop yield, and optimize resource utilization.
 

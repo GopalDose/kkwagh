@@ -8,6 +8,8 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { GiPlantWatering } from "react-icons/gi";
 import { MdOutlineGroups } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { FaMapLocationDot } from "react-icons/fa6";
+import { IoMdChatbubbles } from "react-icons/io";
 
 const Dashboard = () => {
     return (
@@ -28,17 +30,17 @@ const Dashboard = () => {
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
                         </Link>
-                        <a href=''>
+                        <Link to='/price'>
                             <div className="services-card">
                                 <GiReceiveMoney className='icon' />
                                 <div className="service__title">Prices
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
-                        </a>
+                        </Link>
                         <a href='#' >
                             <div className="services-card">
-                                <GiPlantWatering  className='icon' />
+                                <GiPlantWatering className='icon' />
                                 <div className="service__title">Smart irrigation
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
@@ -46,7 +48,7 @@ const Dashboard = () => {
                         </a>
                         <Link to="/lease-market" href='#' >
                             <div className="services-card">
-                                <MdOutlineGroups  className='icon' />
+                                <MdOutlineGroups className='icon' />
                                 <div className="service__title">Lease Market
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
@@ -54,8 +56,17 @@ const Dashboard = () => {
                         </Link>
                         <a href='#' >
                             <div className="services-card">
-                                <PiPlant className='icon' />
-                                <div className="service__title">Crop Prediction
+                                <FaMapLocationDot className='icon' />
+                                <div className="service__title">Nearby Market Place
+                                </div>
+                                <p>AI-powered insights for optimal crop selection and yield forecasting</p>
+                            </div>
+                        </a>
+
+                        <a href='#' >
+                            <div className="services-card">
+                                <IoMdChatbubbles className='icon' />
+                                <div className="service__title">Ai Assistance
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
