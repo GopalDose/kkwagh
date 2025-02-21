@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Product = () => {
+const Product = ({name , imgrul , price}) => {
     return (
         <div className="product">
-            <img src="https://cdn.britannica.com/43/128643-004-17C2CD69/Tractor.jpg" alt="" />
+            <img src={imgrul} alt="" />
             <div className="data">
-                <div className="name">Jhon Deere Tractor</div>
+                <div className="name">{name}</div>
                 <div className="price">
-                    <span>₹ 5000 / Per Day</span>
+                    <span>₹ {price} / Per Hour</span>
                 </div>
             </div>
             <button >

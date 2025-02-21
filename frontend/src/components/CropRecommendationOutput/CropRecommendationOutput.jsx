@@ -22,24 +22,6 @@ const recommendedCrops = [
         reason: "Recommended due to moderate Nitrogen and high Phosphorus demand, warm temperature (18-30°C), and moderate rainfall (50-100 cm). Suitable for sandy loam soil with a pH range of 5.8-7.2. Ideal for states like Karnataka, Maharashtra, Bihar, and Andhra Pradesh.",
         fertilizer: "NPK 20-20-20, Zinc",
         harvestDays: "100-120 days"
-    },
-    {
-        name: "Maize",
-        reason: "Recommended due to moderate Nitrogen and high Phosphorus demand, warm temperature (18-30°C), and moderate rainfall (50-100 cm). Suitable for sandy loam soil with a pH range of 5.8-7.2. Ideal for states like Karnataka, Maharashtra, Bihar, and Andhra Pradesh.",
-        fertilizer: "NPK 20-20-20, Zinc",
-        harvestDays: "100-120 days"
-    },
-    {
-        name: "Maize",
-        reason: "Recommended due to moderate Nitrogen and high Phosphorus demand, warm temperature (18-30°C), and moderate rainfall (50-100 cm). Suitable for sandy loam soil with a pH range of 5.8-7.2. Ideal for states like Karnataka, Maharashtra, Bihar, and Andhra Pradesh.",
-        fertilizer: "NPK 20-20-20, Zinc",
-        harvestDays: "100-120 days"
-    },
-    {
-        name: "Maize",
-        reason: "Recommended due to moderate Nitrogen and high Phosphorus demand, warm temperature (18-30°C), and moderate rainfall (50-100 cm). Suitable for sandy loam soil with a pH range of 5.8-7.2. Ideal for states like Karnataka, Maharashtra, Bihar, and Andhra Pradesh.",
-        fertilizer: "NPK 20-20-20, Zinc",
-        harvestDays: "100-120 days"
     }
 ];
 

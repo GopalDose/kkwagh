@@ -10,6 +10,7 @@ import CropRecommendation from './components/CropRecommendation/CropRecommendati
 import CropRecommendationOutput from './components/CropRecommendationOutput/CropRecommendationOutput';
 import FuturePrice from './components/FuturePrice/FuturePrice';
 import { SiChatbot } from "react-icons/si";
+import MarketPlace from './components/MarketPlace/MarketPlace';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -38,6 +39,7 @@ const App = () => {
             <Route path="/crop-recc" element={<CropRecommendation />} />
             <Route path="/crop-recc-out" element={<CropRecommendationOutput />} />
             <Route path="/price" element={<FuturePrice />} />
+            <Route path="/market" element={<MarketPlace />} />
           </Routes>
           <div className="chatbot">
             <SiChatbot />

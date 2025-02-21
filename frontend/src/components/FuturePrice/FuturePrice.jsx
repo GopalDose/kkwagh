@@ -9,32 +9,32 @@ const FuturePrice = () => {
 
     const cropData = {
         Wheat: [
-            { month: "Jan", price: 220 },
-            { month: "Feb", price: 230 },
-            { month: "Mar", price: 150 },
-            { month: "Apr", price: 660 },
-            { month: "May", price: 270 },
-            { month: "Jun", price: 780 },
-            { month: "Jul", price: 290 },
-            { month: "Aug", price: 800 },
-            { month: "Sep", price: 910 },
-            { month: "Oct", price: 220 },
-            { month: "Nov", price: 330 },
-            { month: "Dec", price: 340 }
+            { month: "Jan", price: 2200 },
+            { month: "Feb", price: 2350 },
+            { month: "Mar", price: 2550 },
+            { month: "Apr", price: 2500 },
+            { month: "May", price: 2100},
+            { month: "Jun", price: 1900 },
+            { month: "Jul", price: 2200 },
+            { month: "Aug", price: 2300 },
+            { month: "Sep", price: 2250 },
+            { month: "Oct", price: 2350 },
+            { month: "Nov", price: 2330 },
+            { month: "Dec", price: 2100 }
         ],
         Rice: [
-            { month: "Jan", price: 180 },
-            { month: "Feb", price: 185 },
-            { month: "Mar", price: 190 },
-            { month: "Apr", price: 200 },
-            { month: "May", price: 210 },
-            { month: "Jun", price: 220 },
-            { month: "Jul", price: 230 },
-            { month: "Aug", price: 240 },
-            { month: "Sep", price: 250 },
-            { month: "Oct", price: 260 },
-            { month: "Nov", price: 270 },
-            { month: "Dec", price: 280 }
+            { month: "Jan", price: 4809 },
+            { month: "Feb", price: 5085 },
+            { month: "Mar", price: 4000 },
+            { month: "Apr", price: 4500 },
+            { month: "May", price: 4130 },
+            { month: "Jun", price: 5200 },
+            { month: "Jul", price: 3300 },
+            { month: "Aug", price: 5540 },
+            { month: "Sep", price: 5250 },
+            { month: "Oct", price: 5500 },
+            { month: "Nov", price: 5770 },
+            { month: "Dec", price: 4570 }
         ],
         Maize: [
             { month: "Jan", price: 150 },
@@ -89,7 +89,7 @@ const FuturePrice = () => {
                                 <YAxis />
                                 <Tooltip />
                                 <CartesianGrid strokeDasharray="3 3" />
-                                <Line type="monotone" dataKey="price" stroke="#8884d8" strokeWidth={2} />
+                                <Line type="monotone" dataKey="price" stroke="#4CAF50" strokeWidth={2} />
                             </LineChart>
                         </ResponsiveContainer>
                     </div>

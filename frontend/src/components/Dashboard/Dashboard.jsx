@@ -54,14 +54,14 @@ const Dashboard = () => {
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
                         </Link>
-                        <a href='#' >
+                        <Link to='/market' >
                             <div className="services-card">
                                 <FaMapLocationDot className='icon' />
                                 <div className="service__title">Nearby Market Place
                                 </div>
                                 <p>AI-powered insights for optimal crop selection and yield forecasting</p>
                             </div>
-                        </a>
+                        </Link>
 
                         <a href='#' >
                             <div className="services-card">

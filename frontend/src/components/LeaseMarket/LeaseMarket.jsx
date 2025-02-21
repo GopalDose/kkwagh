@@ -49,12 +49,14 @@ const LeaseMarket = () => {
                 </div>
 
                 <div className="product-container">
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
+                    <Product name="John Deere Tractor " imgrul="https://cdn.britannica.com/43/128643-004-17C2CD69/Tractor.jpg" price="600" />
+                    <Product name="Equipment " imgrul="https://www.bankrate.com/2022/04/07090806/sprinkler-system-cost-667767602.jpg?auto=webp&optimize=high&crop=16:9" price="200" />
+                    <Product name="Disc Hower " imgrul="https://mlhobevaucyf.i.optimole.com/w:auto/h:auto/q:mauto/f:best/ig:avif/https://newagri.in/wp-content/uploads/2022/06/AG204_9_Tyne_cultivator.jpg" price="350" />
+                    <Product name="John Deere Tractor " imgrul="https://cdn.britannica.com/43/128643-004-17C2CD69/Tractor.jpg" price="5000" />
+                    <Product name="John Deere Tractor " imgrul="https://cdn.britannica.com/43/128643-004-17C2CD69/Tractor.jpg" price="5000" />
+                    <Product name="John Deere Tractor " imgrul="https://cdn.britannica.com/43/128643-004-17C2CD69/Tractor.jpg" price="5000" />
+                    <Product name="John Deere Tractor " imgrul="https://cdn.britannica.com/43/128643-004-17C2CD69/Tractor.jpg" price="5000" />
+                    
                 </div>
             </div>
             <Footer />
